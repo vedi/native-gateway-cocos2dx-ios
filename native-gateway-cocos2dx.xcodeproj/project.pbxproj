@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D428A0219F1AF9800B241DE /* native-gateway-cocos2dx-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D428A0319F1AF9900B241DE /* Build configuration list for PBXAggregateTarget "native-gateway-cocos2dx-universal" */;
+			buildPhases = (
+				9D428A0619F1AFAD00B241DE /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "native-gateway-cocos2dx-universal";
+			productName = "native-gateway-cocos2dx-aggregated";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		372B7EBF48580C539A9A01D2 /* Cocos2dxGatewayAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 372B71FE4C86E8FEE4001FF9 /* Cocos2dxGatewayAdapter.mm */; };
+		9D428A1B19F1B54900B241DE /* Cocos2dxGatewayAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 372B70C673A5EABA98F6B419 /* Cocos2dxGatewayAdapter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D428A0019F1AF7300B241DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4289FB19F1AF7300B241DE /* native-gateway-common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 372B7A39A6BEB6BEDF91B827;
+			remoteInfo = "native-gateway-common";
+		};
+		9D428A1719F1B4C900B241DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D4289FB19F1AF7300B241DE /* native-gateway-common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCAE4EC19E315B600A4DF50;
+			remoteInfo = "native-gateway-common-universal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		372B7AF76106E740566824E1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9D428A1B19F1B54900B241DE /* Cocos2dxGatewayAdapter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		372B70C673A5EABA98F6B419 /* Cocos2dxGatewayAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cocos2dxGatewayAdapter.h; sourceTree = "<group>"; };
+		372B71FE4C86E8FEE4001FF9 /* Cocos2dxGatewayAdapter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cocos2dxGatewayAdapter.mm; sourceTree = "<group>"; };
+		372B758FC86E7743DAA23162 /* libNativeGatewayCocos2dx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNativeGatewayCocos2dx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4289FB19F1AF7300B241DE /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372B7C8983E4DC64641AACE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372B79FC0918614DBB0D271F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372B758FC86E7743DAA23162 /* libNativeGatewayCocos2dx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372B7A4965377F872657B689 /* native-gateway-cocos2dx */ = {
+			isa = PBXGroup;
+			children = (
+				372B71FE4C86E8FEE4001FF9 /* Cocos2dxGatewayAdapter.mm */,
+				372B70C673A5EABA98F6B419 /* Cocos2dxGatewayAdapter.h */,
+			);
+			path = "native-gateway-cocos2dx";
+			sourceTree = "<group>";
+		};
+		372B7FACA8AB250CA0458D30 = {
+			isa = PBXGroup;
+			children = (
+				9D4289FB19F1AF7300B241DE /* native-gateway-common.xcodeproj */,
+				372B79FC0918614DBB0D271F /* Products */,
+				372B7A4965377F872657B689 /* native-gateway-cocos2dx */,
+			);
+			sourceTree = "<group>";
+		};
+		9D4289FC19F1AF7300B241DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D428A0119F1AF7300B241DE /* libNativeGatewayCommon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372B70EBD02FB72C06E0AB79 /* native-gateway-cocos2dx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372B70EE988C328637D4F4CE /* Build configuration list for PBXNativeTarget "native-gateway-cocos2dx" */;
+			buildPhases = (
+				372B7F25247D144AC09A70E9 /* Sources */,
+				372B7C8983E4DC64641AACE8 /* Frameworks */,
+				372B7AF76106E740566824E1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D428A1819F1B4C900B241DE /* PBXTargetDependency */,
+			);
+			name = "native-gateway-cocos2dx";
+			productName = "native-gateway-cocos2dx";
+			productReference = 372B758FC86E7743DAA23162 /* libNativeGatewayCocos2dx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372B76005F6E0E4442B1300E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = vedidev;
+				TargetAttributes = {
+					9D428A0219F1AF9800B241DE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 372B724683F71E00C32E1F83 /* Build configuration list for PBXProject "native-gateway-cocos2dx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 372B7FACA8AB250CA0458D30;
+			productRefGroup = 372B79FC0918614DBB0D271F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D4289FC19F1AF7300B241DE /* Products */;
+					ProjectRef = 9D4289FB19F1AF7300B241DE /* native-gateway-common.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				372B70EBD02FB72C06E0AB79 /* native-gateway-cocos2dx */,
+				9D428A0219F1AF9800B241DE /* native-gateway-cocos2dx-universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9D428A0119F1AF7300B241DE /* libNativeGatewayCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNativeGatewayCommon.a;
+			remoteRef = 9D428A0019F1AF7300B241DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D428A0619F1AFAD00B241DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target native-gateway-cocos2dx ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target native-gateway-cocos2dx -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372B7F25247D144AC09A70E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372B7EBF48580C539A9A01D2 /* Cocos2dxGatewayAdapter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D428A1819F1B4C900B241DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "native-gateway-common-universal";
+			targetProxy = 9D428A1719F1B4C900B241DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372B752D202DB3B656E2085F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		372B75AA8E3B1A403A69F0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../native-gateway-common/native-gateway-common",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NativeGatewayCocos2dx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		372B7DACE0BD4DE2E0E8B9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372B7EC5994105260E923C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../native-gateway-common/native-gateway-common",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NativeGatewayCocos2dx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D428A0419F1AF9900B241DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = NativeGatewayCocos2dx;
+			};
+			name = Debug;
+		};
+		9D428A0519F1AF9900B241DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = NativeGatewayCocos2dx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372B70EE988C328637D4F4CE /* Build configuration list for PBXNativeTarget "native-gateway-cocos2dx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B7EC5994105260E923C23 /* Debug */,
+				372B75AA8E3B1A403A69F0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372B724683F71E00C32E1F83 /* Build configuration list for PBXProject "native-gateway-cocos2dx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B752D202DB3B656E2085F /* Debug */,
+				372B7DACE0BD4DE2E0E8B9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D428A0319F1AF9900B241DE /* Build configuration list for PBXAggregateTarget "native-gateway-cocos2dx-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D428A0419F1AF9900B241DE /* Debug */,
+				9D428A0519F1AF9900B241DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372B76005F6E0E4442B1300E /* Project object */;
+}
